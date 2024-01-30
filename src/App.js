@@ -26,6 +26,3 @@ const App = () => {
 };
 
 export default App;
-
-//https://reactrouter.com/en/main/start/tutorial#adding-a-router
-//afficher l'ID qu'on envoie dans la route

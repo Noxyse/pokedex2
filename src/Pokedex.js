@@ -24,7 +24,7 @@ const Pokedex = () => {
             <h1>Pokedex</h1>
             <div className="pokemon-list">
                 {pokemonData.map(pokemon => (
-                    <Link to={`pokemon/${pokemon.id}`}>{pokemon.name.french}</Link>
+                    <Link to={`pokemon/${pokemon.id}`}>{pokemon.name.french + ' '}</Link>
                 ))}
             </div>
         </div>
@@ -32,3 +32,4 @@ const Pokedex = () => {
 };
 
 export default Pokedex;
+
